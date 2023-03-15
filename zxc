@@ -1,0 +1,24 @@
+#include<stdio.h>
+ int main()
+ {
+     int monno;
+     printf("enter no::");
+     scanf("%d",&monno);
+     switch(monno){
+         case 1:
+         case 3:
+         case 5:
+         case 7:
+         printf("have 31 days");
+         break;
+         case 2:
+         printf("have 28 days");
+         printf("in leap year 29 days");
+         break;
+         case 4:
+         case 6:
+         printf("30 days");
+         break;
+     }
+     return 0;
+}
